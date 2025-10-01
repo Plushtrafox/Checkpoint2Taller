@@ -90,12 +90,12 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Movement"",
-            ""id"": ""ec6a697c-6e82-4e8e-9f8c-d4be275b4f5a"",
+            ""id"": ""b1b75709-8da7-4fb1-8129-e3321c86cd5b"",
             ""actions"": [
                 {
                     ""name"": ""HorizontalMove"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""e2f505ae-552e-446d-a3a0-eb03f1b211b3"",
+                    ""id"": ""2a5958af-92cd-4bde-954b-ffb725b292e4"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -104,7 +104,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""MouseX"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""b27377ec-6adf-4647-8913-7b986722cefb"",
+                    ""id"": ""ea6f04e6-5773-4395-86be-88ed6d5763c1"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -113,7 +113,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""MouseY"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""c6076fc2-387a-42ac-b876-641cc3db488d"",
+                    ""id"": ""82212658-2592-47de-b7a1-17bae3492ed9"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -123,7 +123,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": ""2D Vector"",
-                    ""id"": ""36da566e-73b7-4d6f-b155-25cc050cb653"",
+                    ""id"": ""7416013d-231c-458d-8258-c2daec0c91e1"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -134,7 +134,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""315489d0-206b-4154-8566-3581d26fe460"",
+                    ""id"": ""6faba697-18b1-4043-88b7-b8e7b6c420d4"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -145,7 +145,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""2fe17b8f-13d5-4ff0-b807-3449a4a4d763"",
+                    ""id"": ""18b8114c-54a0-4db5-bcb8-da8d7d4d4023"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -156,18 +156,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""2c25268c-1f2a-4cfe-8067-e351414b9406"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""HorizontalMove"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""7123dee3-46eb-430b-9511-5b39aa33dfd6"",
+                    ""id"": ""54edd1d5-a755-4779-9ba4-c7f7eab3560d"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -177,8 +166,19 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""right"",
+                    ""id"": ""637e2fd4-b819-44c8-8869-9366a7da354b"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""HorizontalMove"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": """",
-                    ""id"": ""5fde6f6b-9ad7-4706-a0ee-b39272334660"",
+                    ""id"": ""b11e694b-2d49-48c5-9e52-ef59aa1f37a5"",
                     ""path"": ""<Mouse>/delta/x"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -189,7 +189,7 @@ public partial class @PlayerMovement: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b0609733-a46d-4c2d-b9d5-2f3546081d21"",
+                    ""id"": ""ed96d855-4200-4ca0-81ad-9ac9f04a1f2c"",
                     ""path"": ""<Mouse>/delta/y"",
                     ""interactions"": """",
                     ""processors"": """",
